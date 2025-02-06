@@ -22,6 +22,6 @@ app.use("/api/v1/token", tokenRouter);
 app.use("/api/v1/profile", profileRouter);
 app.use("/api/v1/problems", problemRouter);
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log(`Server running at port ${process.env.PORT}`);
 });
